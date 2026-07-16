@@ -132,7 +132,7 @@ startBtn.addEventListener("click",()=>{
 
     };
 
-    showPage(questionPage);
+    showPage(page);
 
     renderQuestion();
 
