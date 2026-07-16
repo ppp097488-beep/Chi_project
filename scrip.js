@@ -1192,7 +1192,7 @@ const resultData = {
 
         partner:"쿠",
 
-        partnerImage:"./assets/koo.png",
+        partnerImage:"./assets/cu.png",
 
         partnerReason:
         "계획적인 쿠와 함께라면 더욱 체계적인 자산관리가 가능합니다."
@@ -1235,7 +1235,7 @@ const resultData = {
 
         partner:"푸딩",
 
-        partnerImage:"./assets/pudding.png",
+        partnerImage:"./assets/puding.png",
 
         partnerReason:
         "균형 감각이 뛰어난 푸딩이 좋은 파트너입니다."
@@ -1294,7 +1294,7 @@ const resultData = {
 
         type:"균형투자자",
 
-        image:"./assets/pudding.png",
+        image:"./assets/puding.png",
 
         quote:"균형이 최고의 전략입니다.",
 
@@ -1407,7 +1407,7 @@ const resultData = {
 
         partner:"푸딩",
 
-        partnerImage:"./assets/pudding.png",
+        partnerImage:"./assets/puding.png",
 
         partnerReason:
         "균형감 있는 푸딩이 좋은 파트너입니다."
