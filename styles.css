@@ -2,7 +2,74 @@
    WE:BEE FRIENDS INVESTMENT TEST
    Woori Bank UI Design System
 ========================================================== */
+*{
 
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:
+
+Pretendard,
+sans-serif;
+
+background:#f5f8fc;
+
+color:#222;
+
+min-height:100vh;
+
+overflow-x:hidden;
+
+}
+
+.container{
+
+width:min(100%,430px);
+
+margin:auto;
+
+min-height:100vh;
+
+background:white;
+
+}
+
+button{
+
+width:100%;
+
+padding:16px;
+
+font-size:16px;
+
+border:none;
+
+border-radius:16px;
+
+cursor:pointer;
+
+}
+
+@media(min-width:768px){
+
+.container{
+
+margin:40px auto;
+
+border-radius:24px;
+
+box-shadow:0 10px 40px rgba(0,0,0,.1);
+
+}
+
+}
 
 /* =========================
    RESET
