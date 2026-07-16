@@ -132,7 +132,7 @@ startBtn.addEventListener("click",()=>{
 
     };
 
-    showPage(page);
+    showPage(questionPage);
 
     renderQuestion();
 
@@ -150,7 +150,7 @@ Q1
 {
     id: 1,
 
-    character: "webee",
+    character: "wibee",
 
     message: "첫 번째 질문이에요!",
 
@@ -267,7 +267,7 @@ Q3
 
     id:3,
 
-    character:"koo",
+    character:"cu",
 
     message:"친구가 대박 정보를 알려줬대요!",
 
@@ -339,7 +339,7 @@ Q4
 
     id:4,
 
-    character:"pudding",
+    character:"puding",
 
     message:"투자에서 가장 중요한 것은 무엇일까요?",
 
@@ -477,7 +477,7 @@ Q6
 
     id:6,
 
-    character:"duji",
+    character:"dugi",
 
     message:"뜻밖의 여유 자금이 생겼어요!",
 
@@ -612,7 +612,7 @@ Q8
 
     id:8,
 
-    character:"webee",
+    character:"wibee",
 
     message:"사람들이 나를 어떻게 기억하면 좋을까요?",
 
@@ -676,7 +676,7 @@ Q9
 
     id:9,
 
-    character:"koo",
+    character:"cu",
 
     message:"실패도 경험이 될 수 있어요.",
 
@@ -810,7 +810,7 @@ Q11
 
     id:11,
 
-    character:"duji",
+    character:"dugi",
 
     message:"친구들과 투자 이야기를 한다면?",
 
@@ -882,7 +882,7 @@ Q12
 
     id:12,
 
-    character:"pudding",
+    character:"puding",
 
     message:"마지막 질문이에요!",
 
@@ -1449,13 +1449,13 @@ function calculateResult() {
 
         "safety-planning-profit": "dalbo",
 
-        "safety-profit-planning": "webee",
+        "safety-profit-planning": "wibee",
 
-        "planning-safety-profit": "koo",
+        "planning-safety-profit": "cu",
 
-        "planning-profit-safety": "pudding",
+        "planning-profit-safety": "puding",
 
-        "profit-planning-safety": "duji",
+        "profit-planning-safety": "dugi",
 
         "profit-safety-planning": "bombom"
 
