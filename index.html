@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>위비프렌즈 투자 성향 테스트</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="styles.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- ========================================= -->
+<!-- Landing -->
+<!-- ========================================= -->
+
+<section
+id="landingPage"
+class="page active">
+
+<header class="landing-header">
+
+<img
+src="./assets/woori-logo.png"
+alt="우리은행"
+class="woori-logo">
+
+</header>
+
+<main class="landing-main">
+
+<img
+src="./assets/title-logo.png"
+alt="위비프렌즈"
+class="title-logo">
+
+<h1>
+
+나의 투자 DNA 찾기
+
+</h1>
+
+<p class="landing-description">
+
+12개의 질문으로 알아보는<br>
+
+나만의 투자 성향과<br>
+
+위비프렌즈 캐릭터!
+
+</p>
+
+<div class="landing-info">
+
+<div>
+
+⏱ 약 2분
+
+</div>
+
+<div>
+
+🎁 테스트 후 굿즈 이벤트
+
+</div>
+
+</div>
+
+<button
+id="startBtn"
+class="primary-button">
+
+테스트 시작하기
+
+</button>
+
+</main>
+
+<footer class="landing-footer">
+
+<p>
+
+© WOORI BANK
+
+</p>
+
+</footer>
+
+</section>
+
+<!-- ========================================= -->
+<!-- Question -->
+<!-- ========================================= -->
+
+<section
+id="questionPage"
+class="page">
+
+<header class="question-header">
+
+<div class="question-top">
+
+<div
+id="questionNumber">
+
+Q1 / 12
+
+</div>
+
+<div
+id="questionPercent">
+
+8%
+
+</div>
+
+</div>
+
+<div class="progress-bar">
+
+<div
+id="progressFill">
+
+</div>
+
+</div>
+
+</header>
+
+<main class="question-main">
+
+<div class="question-character">
+
+<img
+id="guideCharacter"
+
+src="./assets/webee.png"
+
+alt="가이드 캐릭터">
+
+<p
+id="guideMessage">
+
+안녕하세요!
+투자 성향을 함께 알아봐요.
+
+</p>
+
+</div>
+
+<div class="question-card">
+
+<h2
+id="questionText">
+
+질문이 들어갑니다.
+
+</h2>
+
+<div
+id="answerContainer">
+
+<!-- JS 생성 -->
+
+</div>
+
+</div>
+
+</main>
+
+</section>
+
+<!-- ========================================= -->
+<!-- Loading -->
+<!-- ========================================= -->
+
+<section
+id="loadingPage"
+class="page">
+
+<div class="loading-box">
+
+<img
+src="./assets/webee.png"
+class="loading-character"
+alt="위비">
+
+<h2>
+
+투자 성향 분석 중...
+
+</h2>
+
+<p
+id="loadingMessage">
+
+답변을 분석하고 있습니다.
+
+</p>
+
+<div class="loading-bar">
+
+<div
+id="loadingFill">
+
+</div>
+
+</div>
+
+<div
+id="loadingPercent">
+
+0%
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- Result -->
+<!-- ========================================= -->
+
+<section
+id="resultPage"
+class="page">
+
+<header class="result-header">
+
+<h1>
+
+당신의 투자 유형은
+
+</h1>
+
+<h2
+id="resultTitle">
+
+위비
+
+</h2>
+
+<h3
+id="resultSubTitle">
+
+분석전략가
+
+</h3>
+
+</header>
+
+<main class="result-main">
+
+<div class="character-box">
+
+<img
+
+id="resultCharacter"
+
+src="./assets/webee.png"
+
+alt="결과 캐릭터">
+
+</div>
+
+<div class="speech-bubble">
+
+<p
+id="characterQuote">
+
+"근거 있는 투자가 가장 강한 투자야!"
+
+</p>
+
+</div>
+
+<section class="result-card">
+
+<h3>
+
+캐릭터 특징
+
+</h3>
+
+<p
+id="characterDescription">
+
+설명
+
+</p>
+
+</section>
+
+<section class="result-card">
+
+<h3>
+
+금융 특징
+
+</h3>
+
+<p
+id="financeDescription">
+
+설명
+
+</p>
+
+</section>
+
+<section class="result-card">
+
+<h3>
+
+장점
+
+</h3>
+
+<ul
+id="strengthList">
+
+</ul>
+
+</section>
+
+<section class="result-card">
+
+<h3>
+
+주의할 점
+
+</h3>
+
+<ul
+id="weaknessList">
+
+</ul>
+
+</section>
+
+<section class="interest-card">
+
+<h3>
+
+금융 투자 관심도
+
+</h3>
+
+<div class="interest-bar">
+
+<div
+id="interestFill">
+
+</div>
+
+</div>
+
+<div class="interest-info">
+
+<span
+id="interestScore">
+
+50점
+
+</span>
+
+<span
+id="interestLevel">
+
+아기 투자자
+
+</span>
+
+</div>
+
+<p
+id="interestDescription">
+
+관심도 설명
+
+</p>
+
+</section>
+
+<section class="recommend-section">
+
+<h3>
+
+추천 금융 서비스
+
+</h3>
+
+<div
+id="recommendContainer"
+class="recommend-grid">
+
+</div>
+
+</section>
+
+<section class="partner-section">
+
+<h3>
+
+🤝 잘 맞는 투자 파트너
+
+</h3>
+
+<div class="partner-card">
+
+<img
+id="partnerCharacter"
+
+src="./assets/pudding.png"
+
+alt="파트너">
+
+<div>
+
+<h4
+id="partnerName">
+
+푸딩
+
+</h4>
+
+<p
+id="partnerReason">
+
+균형 잡힌 투자 스타일로 서로를 보완해 줄 수 있어요.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="gift-banner">
+
+<h3>
+
+🎁 이벤트
+
+</h3>
+
+<p>
+
+결과를 공유하면<br>
+
+위비프렌즈 굿즈 추첨에 자동 응모됩니다!
+
+</p>
+
+</section>
+
+<div class="result-buttons">
+
+<button
+id="shareBtn"
+class="primary-button">
+
+결과 공유하기
+
+</button>
+
+<a
+
+href="https://www.wooribank.com"
+
+target="_blank"
+
+class="secondary-button">
+
+우리은행 상품 보기
+
+</a>
+
+<button
+id="restartBtn"
+class="secondary-button">
+
+다시 테스트하기
+
+</button>
+
+</div>
+
+</main>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
