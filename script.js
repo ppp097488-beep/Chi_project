@@ -727,7 +727,7 @@ Q9
             score:{
 
                 planning:20,
-어
+               
                 profit:20
 
             }
