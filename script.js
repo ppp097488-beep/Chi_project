@@ -150,7 +150,7 @@ Q1
 {
     id: 1,
 
-    character: "webee",
+    character: "wibee",
 
     message: "첫 번째 질문이에요!",
 
@@ -181,7 +181,7 @@ Q1
         },
 
         {
-            text: "고생한 나를 위해 사고 싶었던 걸 바로 산다.",
+            text: "고생한 나를 위해 위시리스트 아이템을 바로 산다.",
             score:{
                 interest:-10
             }
@@ -267,7 +267,7 @@ Q3
 
     id:3,
 
-    character:"koo",
+    character:"cu",
 
     message:"친구가 대박 정보를 알려줬대요!",
 
@@ -289,7 +289,7 @@ Q3
 
         {
 
-            text:"기업과 재무제표를 직접 조사한다.",
+            text:"집에 와서 기업과 재무제표를 직접 조사해본다.",
 
             score:{
 
@@ -301,7 +301,7 @@ Q3
 
         {
 
-            text:"소액으로 한번 투자해본다.",
+            text:"친구를 믿고 즉시 소액으로 한번 투자해본다.",
 
             score:{
 
@@ -339,7 +339,7 @@ Q4
 
     id:4,
 
-    character:"pudding",
+    character:"puding",
 
     message:"투자에서 가장 중요한 것은 무엇일까요?",
 
@@ -349,7 +349,7 @@ Q4
 
         {
 
-            text:"원금을 지키는 것이 가장 중요하다.",
+            text:"원금과 자산이 안전하게 보존 되는 것",
 
             score:{
 
@@ -361,7 +361,7 @@ Q4
 
         {
 
-            text:"미래 성장 가능성에 투자한다.",
+            text:"장기적인 미래 성장 가능성",
 
             score:{
 
@@ -373,7 +373,7 @@ Q4
 
         {
 
-            text:"높은 수익이 가장 중요하다.",
+            text:"단기간 하이리스크 하이리턴",
 
             score:{
 
@@ -385,7 +385,7 @@ Q4
 
         {
 
-            text:"매달 꾸준히 투자하는 습관이 중요하다.",
+            text:"매달 꾸준히 투자하는 습관",
 
             score:{
 
@@ -477,7 +477,7 @@ Q6
 
     id:6,
 
-    character:"duji",
+    character:"dugi",
 
     message:"뜻밖의 여유 자금이 생겼어요!",
 
@@ -487,7 +487,7 @@ Q6
 
         {
 
-            text:"그대로 저축한다.",
+            text:"그대로 통장에 저축한다.",
 
             score:{
 
@@ -499,7 +499,7 @@ Q6
 
         {
 
-            text:"바로 투자에 활용한다.",
+            text:"바로 유망한 자산이나 소액 주식을 매수한다.",
 
             score:{
 
@@ -511,7 +511,7 @@ Q6
 
         {
 
-            text:"다음 여행을 위한 적금에 넣는다.",
+            text:"문화생활을 위한 전용 적금에 넣는다.",
 
             score:{
 
@@ -523,7 +523,7 @@ Q6
 
         {
 
-            text:"사고 싶었던 물건을 산다.",
+            text:"사고 싶었던 물건을 플렉스한다.",
 
             score:{
 
@@ -554,7 +554,7 @@ Q7
 
         {
 
-            text:"비상금을 사용한다.",
+            text:"이런 상황을 위해 모아둔 비상금을 사용한다.",
 
             score:{
 
@@ -566,7 +566,7 @@ Q7
 
         {
 
-            text:"생활비 계획을 다시 수정한다.",
+            text:"바로 생활비 계획을 다시 수정한다.",
 
             score:{
 
@@ -590,7 +590,7 @@ Q7
 
         {
 
-            text:"좋은 인맥을 위한 투자라고 생각한다.",
+            text:"좋은 인맥을 위한 투자이니 내가 쏜다.",
 
             score:{
 
@@ -612,7 +612,7 @@ Q8
 
     id:8,
 
-    character:"webee",
+    character:"wibee",
 
     message:"사람들이 나를 어떻게 기억하면 좋을까요?",
 
@@ -622,7 +622,7 @@ Q8
 
         {
 
-            text:"믿음직스럽다.",
+            text:"언제나 한결같고 믿음직스러워",
 
             score:{
 
@@ -634,7 +634,7 @@ Q8
 
         {
 
-            text:"판단력이 뛰어나다.",
+            text:"넌 매사에 이성적이고 판단력이 예리하구나",
 
             score:{
 
@@ -646,7 +646,7 @@ Q8
 
         {
 
-            text:"도전적이다.",
+            text:"새로운 영역에 도전하는 모습이 멋지다",
 
             score:{
 
@@ -658,7 +658,7 @@ Q8
 
         {
 
-            text:"트렌드를 잘 안다.",
+            text:"트렌드를 알아채는 센스와 안목이 정말 대단해",
 
             score:{}
 
@@ -676,7 +676,7 @@ Q9
 
     id:9,
 
-    character:"koo",
+    character:"cu",
 
     message:"실패도 경험이 될 수 있어요.",
 
@@ -698,7 +698,7 @@ Q9
 
         {
 
-            text:"실패 원인을 분석한다.",
+            text:"실패 원인을 오답노트처럼 분석한다.",
 
             score:{
 
@@ -710,7 +710,7 @@ Q9
 
         {
 
-            text:"좋은 경험이었다고 생각한다.",
+            text:"더 큰 수익을 위한 경험이었다고 생각한다.",
 
             score:{
 
@@ -722,12 +722,11 @@ Q9
 
         {
 
-            text:"전략을 새롭게 수정한다.",
+            text:"전략을 새롭게 수정하고 새로운 투자처를 발굴한다",
 
             score:{
 
                 planning:20,
-
                 profit:20
 
             }
@@ -768,7 +767,7 @@ Q10
 
         {
 
-            text:"경제적 자유를 이룬 삶.",
+            text:"높은 자산 규모가 크게 우상향 하는 삶.",
 
             score:{
 
@@ -780,7 +779,7 @@ Q10
 
         {
 
-            text:"돈보다 다양한 경험을 하는 삶.",
+            text:"다양한 경험을 자유롭게 누리는 삶.",
 
             score:{}
 
@@ -810,7 +809,7 @@ Q11
 
     id:11,
 
-    character:"duji",
+    character:"dugi",
 
     message:"친구들과 투자 이야기를 한다면?",
 
@@ -820,7 +819,7 @@ Q11
 
         {
 
-            text:"조용히 듣는다.",
+            text:"모르는 분야가 많아 조용히 듣는다.",
 
             score:{
 
@@ -832,7 +831,7 @@ Q11
 
         {
 
-            text:"시장 분석을 설명한다.",
+            text:"현재 시장 분석을 객관적으로 설명한다.",
 
             score:{
 
@@ -846,7 +845,7 @@ Q11
 
         {
 
-            text:"내 투자 경험을 이야기한다.",
+            text:"과감한 투자 경험담을 공유하며 대화를 이끈다.",
 
             score:{
 
@@ -882,7 +881,7 @@ Q12
 
     id:12,
 
-    character:"pudding",
+    character:"puding",
 
     message:"마지막 질문이에요!",
 
@@ -904,7 +903,7 @@ Q12
 
         {
 
-            text:"절반은 예금, 절반은 투자.",
+            text:"절반은 예금, 절반은 안정성이 높은 주식.",
 
             score:{
 
@@ -918,7 +917,7 @@ Q12
 
         {
 
-            text:"대부분을 성장주에 투자.",
+            text:"대부분을 성장주에 공격적으로 투자.",
 
             score:{
 
@@ -930,7 +929,7 @@ Q12
 
         {
 
-            text:"투자와 소비를 적절히 나눈다.",
+            text:"고위험 고수익 투자와 나를 위한 소비",
 
             score:{
 
@@ -1200,7 +1199,7 @@ const resultData = {
 
 
 
-    webee:{
+    wibee:{
 
         name:"위비",
 
@@ -1244,7 +1243,7 @@ const resultData = {
 
 
 
-    koo:{
+    cu:{
 
         name:"쿠",
 
@@ -1288,7 +1287,7 @@ const resultData = {
 
 
 
-    pudding:{
+    puding:{
 
         name:"푸딩",
 
@@ -1331,7 +1330,7 @@ const resultData = {
 
 
 
-    duji:{
+    dugi:{
 
         name:"두지",
 
@@ -1449,13 +1448,13 @@ function calculateResult() {
 
         "safety-planning-profit": "dalbo",
 
-        "safety-profit-planning": "webee",
+        "safety-profit-planning": "wibee",
 
-        "planning-safety-profit": "koo",
+        "planning-safety-profit": "cu",
 
-        "planning-profit-safety": "pudding",
+        "planning-profit-safety": "puding",
 
-        "profit-planning-safety": "duji",
+        "profit-planning-safety": "dugi",
 
         "profit-safety-planning": "bombom"
 
