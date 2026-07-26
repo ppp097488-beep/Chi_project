@@ -1501,9 +1501,7 @@ function renderResult(result){
 
     characterDescription.textContent =
         result.description;
-
         
-
 
     /* -------------------------
        장점
