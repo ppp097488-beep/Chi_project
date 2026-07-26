@@ -58,8 +58,7 @@ const characterQuote = document.getElementById("characterQuote");
 const characterDescription =
 document.getElementById("characterDescription");
 
-const financeDescription =
-document.getElementById("financeDescription");
+
 
 const strengthList =
 document.getElementById("strengthList");
@@ -1167,10 +1166,7 @@ const resultData = {
         quote:"안정이 최고의 투자입니다.",
 
         description:
-        "신중하고 안정적인 선택을 선호하는 투자자입니다. 리스크를 최소화하며 꾸준히 자산을 모아가는 스타일입니다.",
-
-        finance:
-        "예·적금, 채권형 상품, 안정형 펀드와 잘 어울립니다.",
+        "신중하고 안정적인 선택을 선호하고 리스크를 최소화하며 꾸준히 자산을 모아가는 스타일입니다. 원금 보전과 안정적인 수익을 가장 중요하게 생각하여 예·적금이나 채권처럼 위험이 낮은 금융상품을 선호하며, 꾸준한 저축과 장기 복리를 통해 안정적으로 자산을 늘려가는 투자 성향입니다.",
 
         strengths:[
             "계획 없이 투자하지 않는다.",
@@ -1210,11 +1206,9 @@ const resultData = {
         quote:"근거 있는 투자가 가장 강한 투자입니다.",
 
         description:
-        "데이터와 분석을 바탕으로 투자하는 전략가입니다.",
+        "데이터와 분석을 바탕으로 투자하는 전략가입니다. 투자 전 기업 실적, 재무제표, 산업 전망 등 객관적인 데이터를 꼼꼼히 분석한 뒤 의사결정을 내립니다. 감정보다 논리를 중시하며 장기적인 성장 가능성이 높은 우량 자산을 선별하는 데 강점을 가진 투자자입니다.",
 
-        finance:
-        "ETF, 분산투자, 장기투자에 적합합니다.",
-
+    
         strengths:[
             "논리적인 투자 판단",
             "시장 분석 능력",
@@ -1254,11 +1248,9 @@ const resultData = {
         quote:"계획은 최고의 무기입니다.",
 
         description:
-        "목표를 세우고 꾸준히 실천하는 계획형 투자자입니다.",
+        "목표를 세우고 체계적으로 자산을 관리하는 계획형 투자자입니다. 투자 시기와 금액을 미리 정해 꾸준히 실행하며, 분산투자와 장기 계획을 통해 안정적인 자산 증식을 추구하는 것이 특징입니다. 안정적인 투자 습관이 장점이나, 빠른 투자 트렌드 변화에 대응하기 어려울 수 있습니다.",
 
-        finance:
-        "장기 적립식 투자와 잘 맞습니다.",
-
+        
         strengths:[
             "철저한 계획",
             "꾸준한 실행",
@@ -1298,11 +1290,9 @@ const resultData = {
         quote:"균형이 최고의 전략입니다.",
 
         description:
-        "안정성과 수익성을 균형 있게 추구하는 투자자입니다.",
+        "안정성과 수익성을 균형 있게 추구하는 투자자입니다. 주식, 채권, 현금성 자산 등을 적절히 배분해 시장 상황에 유연하게 대응하며, 특정 자산에 치우치지 않는 안정적인 포트폴리오를 유지하려 합니다.",
 
-        finance:
-        "분산투자와 혼합형 펀드가 적합합니다.",
-
+    
         strengths:[
             "균형 잡힌 판단",
             "유연한 사고",
@@ -1341,7 +1331,7 @@ const resultData = {
         quote:"도전이 있어야 성장도 있습니다.",
 
         description:
-        "높은 수익을 위해 적극적으로 투자하는 스타일입니다.",
+        "높은 수익을 위해 적극적으로 투자하는 스타일입니다. 단기 시장 흐름을 활용하거나 공격적인 금융상품에도 관심이 많으며, 시장 평균을 뛰어넘는 수익을 목표로 과감한 투자를 선택합니다.",
 
         finance:
         "성장주와 해외투자에 적합합니다.",
@@ -1384,10 +1374,9 @@ const resultData = {
         quote:"트렌드가 곧 기회입니다.",
 
         description:
-        "새로운 산업과 트렌드에 민감한 투자자입니다.",
+        "새로운 산업과 트렌드에 민감한 투자자입니다. 시장의 변화와 새로운 산업을 빠르게 포착해 투자 기회를 찾아 AI, 친환경, 우주항공, 바이오 등 성장 산업에 관심이 많습니다. 높은 성장성을 기대하는 대신 변동성도 적극적으로 감수하는 편입니다.",
 
-        finance:
-        "테마 ETF, AI, 반도체 관련 상품과 잘 맞습니다.",
+
 
         strengths:[
             "유행을 빨리 파악",
@@ -1673,12 +1662,7 @@ function renderRecommend(result){
 
             </p>
 
-            <button class="secondary-button">
-
-            자세히 보기
-
-            </button>
-
+            
         `;
 
         recommendContainer.appendChild(card);
