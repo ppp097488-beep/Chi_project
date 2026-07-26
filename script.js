@@ -1502,9 +1502,7 @@ function renderResult(result){
     characterDescription.textContent =
         result.description;
 
-    financeDescription.textContent =
-        result.finance;
-
+        
 
 
     /* -------------------------
