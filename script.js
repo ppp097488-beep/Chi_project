@@ -58,8 +58,6 @@ const characterQuote = document.getElementById("characterQuote");
 const characterDescription =
 document.getElementById("characterDescription");
 
-
-
 const strengthList =
 document.getElementById("strengthList");
 
@@ -1662,7 +1660,7 @@ function renderRecommend(result){
 
             </p>
 
-            
+
         `;
 
         recommendContainer.appendChild(card);
