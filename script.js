@@ -1219,9 +1219,18 @@ const resultData = {
         ],
 
         recommend:[
-            "ETF",
-            "ISA",
-            "우리 WON뱅킹 투자"
+            {
+                name: "ETF",
+                description: "주식처럼 쉽게 거래하면서 여러 자산에 분산 투자할 수 있는 금융상품입니다."
+            }.
+            {
+                name: "ISA",
+                description: "예금, 펀드, ETF 등을 하나의 계좌에서 운용하며 절세 혜택을 받을 수 있습니다."
+            },
+            {
+                name: "우리 WON 투자",
+                description: "우리WON뱅킹에서 다양한 투자상품을 쉽고 편리하게 관리할 수 있는 서비스입니다."
+            }
         ],
 
         partner:"푸딩",
@@ -1261,9 +1270,18 @@ const resultData = {
         ],
 
         recommend:[
-            "적립식 펀드",
-            "연금저축",
-            "우리 청년 상품"
+            {
+                name: "적립식 펀드",
+                description: "매달 일정 금액을 꾸준히 투자하여 시장 변동 위험을 줄일 수 있는 펀드입니다."
+            },
+            {
+                name: "연금저축",
+                description: "노후를 준비하면서 세액공제 혜택까지 받을 수 있는 대표적인 장기 투자 상품입니다."
+            },
+            {
+               name: "우리 청년 상품",
+               description: "청년을 위한 적금·대출 등 다양한 금융 혜택을 제공하는 맞춤형 상품입니다."
+            }
         ],
 
         partner:"달보",
@@ -1302,9 +1320,18 @@ const resultData = {
         ],
 
         recommend:[
-            "혼합형 펀드",
-            "ETF",
-            "우리 WON뱅킹"
+            {
+                name: "혼합형 펀드",
+                description: "주식과 채권을 함께 투자하여 수익성과 안정성을 균형 있게 추구하는 펀드입니다."
+            },
+            {
+                name: "우리 WON뱅킹",
+                description: "자산 조회, 소비 분석, 금융상품 가입까지 한 번에 이용할 수 있는 금융 플랫폼입니다."
+            },
+            {
+                name: "ETF",
+                description: "주식처럼 쉽게 거래하면서 여러 자산에 분산 투자할 수 있는 금융상품입니다."
+            }
         ],
 
         partner:"위비",
@@ -1345,9 +1372,18 @@ const resultData = {
         ],
 
         recommend:[
-            "해외 ETF",
-            "성장주",
-            "테마형 펀드"
+            {
+                name: "테마형 펀드",
+                description: "특정 산업이나 트렌드에 집중 투자하여 높은 성장 가능성을 추구하는 펀드입니다."
+            },
+            {
+                name: "해외 ETF",
+                description: "글로벌 시장에 분산 투자하여 국가별 성장 기회를 함께 누릴 수 있는 ETF입니다."
+            },
+            {
+               name: "성장주",
+               description: "높은 성장 가능성을 가진 기업에 투자해 장기적인 자산 증식을 기대합니다."
+            }
         ],
 
         partner:"달보",
@@ -1386,9 +1422,18 @@ const resultData = {
         ],
 
         recommend:[
-            "AI ETF",
-            "반도체 ETF",
-            "테마형 펀드"
+            {
+                name: "AI ETF",
+                description: "AI 산업 관련 기업에 분산 투자하여 미래 성장 가능성을 기대할 수 있는 ETF입니다."
+            },
+            {
+                name: "반도체 ETF",
+                description: "국내외 반도체 기업에 분산 투자하며 산업 성장의 수혜를 기대하는 ETF입니다."
+            },
+            {
+                name: "테마형 펀드",
+                description: "특정 산업이나 트렌드에 집중 투자하여 높은 성장 가능성을 추구하는 펀드입니다."
+            }
         ],
 
         partner:"푸딩",
