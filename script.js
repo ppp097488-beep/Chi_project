@@ -1679,29 +1679,18 @@ function renderInterest(){
 
 function renderRecommend(result){
 
-    recommendContainer.innerHTML="";
+    recommendContainer.innerHTML = "";
 
-    result.recommend.forEach(product=>{
+    result.recommend.forEach(product => {
 
-        const card =
-            document.createElement("div");
+        const card = document.createElement("div");
 
-        card.className =
-            "recommend-card";
+        card.className = "recommend-card";
 
-        card.innerHTML=
+        card.innerHTML = `
+            <h4>${product.name}</h4>
 
-        `
-            <h4>${product}</h4>
-
-            <p>
-
-            ${result.type}에게 추천하는
-            우리은행 금융 서비스입니다.
-
-            </p>
-
-
+            <p>${product.description}</p>
         `;
 
         recommendContainer.appendChild(card);
